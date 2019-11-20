@@ -1,24 +1,38 @@
-# README
+# Parks and plants 🌴
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A livecode for Le Wagon Rio batch#330.
 
-Things you may want to cover:
+Let's code a Rails app with gardens and plants!
 
-* Ruby version
+## Usage
+Onboarding:
+```bash
+  cd ~/code/<your_github_nickname>
+  git clone git@github.com:caioertai/parks-and-plants-295.git
+  cd parks-and-plants-295
+  bundle install
+  yarn install
+  rails db:create db:migrate db:seed
+```
+Running the app:
+```bash
+  rails s # go to http://localhost:3000/gardens/
+```
 
-* System dependencies
+## Additional Livecode Info and Resources
 
-* Configuration
+### User Stories
 
-* Database creation
+```
+As a user I can see one garden's plants
+As a user I can add a plant to a garden
+As a user I can delete a plant
+```
 
-* Database initialization
+### Front End Setup Guidelines
 
-* How to run the test suite
+https://github.com/lewagon/rails-stylesheets/blob/master/README.md
 
-* Services (job queues, cache servers, search engines, etc.)
+### Le Wagon UI Toolkit
 
-* Deployment instructions
-
-* ...
+https://uikit.lewagon.com/
