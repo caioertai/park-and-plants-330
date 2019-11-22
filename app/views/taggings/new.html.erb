@@ -1,0 +1,13 @@
+
+<!-- POST /plants/1/taggings -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-6">
+      <h1>Tagging a plant</h1>
+      <%= simple_form_for [@plant, @tagging] do |form| %>
+        <%= form.association :tag %>
+        <%= form.submit %>
+      <% end %>
+    </div>
+  </div>
+</div>

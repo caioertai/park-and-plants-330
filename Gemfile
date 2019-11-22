@@ -18,7 +18,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug'
 end
 
 group :development do
