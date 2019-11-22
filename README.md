@@ -1,6 +1,6 @@
 # Parks and plants 🌴
 
-A livecode for Le Wagon Rio batch#330.
+A livecode done at Le Wagon Rio Batch#330.
 
 Let's code a Rails app with gardens and plants!
 
@@ -25,8 +25,11 @@ Running the app:
 
 ```
 As a user I can see one garden's plants
-As a user I can add a plant to a garden
+As a user I can add a plant in a garden
 As a user I can delete a plant
+As a user I can see plants tags
+As a user I can tag plants
+As a user I can add multiple tags at once
 ```
 
 ### Front End Setup Guidelines
